@@ -1,0 +1,31 @@
+﻿  Prak.cpp
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(33,17): error C2833:  "operator string" не является распознаваемым оператором или типом
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(33,17): error C2059:  синтаксическая ошибка: newline
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(33,19): error C2238:  непредвиденные лексемы перед ";"
+E:\Programs\VS\Code\Prak\Prak\Prak.cpp(12,42): error C3867:  "Vector2d::print": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+  Vector2d.cpp
+E:\Programs\VS\Code\Prak\Prak\Prak.cpp(12,77): error C3867:  "Vector2d::print": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(33,17): error C2833:  "operator string" не является распознаваемым оператором или типом
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(33,17): error C2059:  синтаксическая ошибка: newline
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(33,19): error C2238:  непредвиденные лексемы перед ";"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(21,1): error C2600:  Vector2d::Vector2d: нельзя определить специальную функцию-член, созданную компилятором (сначала необходимо объявить ее в классе)
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(81,27): error C3867:  "Vector2d::length": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(82,27): error C3867:  "Vector2d::length": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(83,37): error C3867:  "Vector2d::scalarmultiplication": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(115,25): error C2248:  Vector2d::x: невозможно обратиться к private член, объявленному в классе "Vector2d"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(5): message :   см. объявление "Vector2d::x"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(2): message :   см. объявление "Vector2d"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(115,34): error C2248:  Vector2d::y: невозможно обратиться к private член, объявленному в классе "Vector2d"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(5): message :   см. объявление "Vector2d::y"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(2): message :   см. объявление "Vector2d"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(173,26): error C2738:  operator std::basic_string<char,std::char_traits<char>,std::allocator<char>>: неоднозначен или не является членом "Vector2d"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.h(2): message :   см. объявление "Vector2d"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(174,1): error C4430:  отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(175,29): error C2065:  x: необъявленный идентификатор
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(175,44): error C2065:  x: необъявленный идентификатор
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(175,65): error C2065:  y: необъявленный идентификатор
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(176,10): error C2440:  return: невозможно преобразовать "std::string" в "int"
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(176,9): message :  Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(177,1): error C2617:  $S1: несовместимый оператор return
+  Создание кода...
+E:\Programs\VS\Code\Prak\Prak\Vector2d.cpp(173): message :   см. объявление "$S1"
